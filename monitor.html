@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dragoons Competition Monitor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/monitor.css" />
+    <script src="https://widgets.coingecko.com/coingecko-coin-list-widget.js"></script>
+    <script src="https://widgets.coingecko.com/coingecko-coin-price-chart-widget.js"></script>
+</head>
+<body class="bg-img">
+    <h1>Competition</h1>
+    <div class="container">
+        <div class="item general">
+            <h3>General prices</h3>
+            <coingecko-coin-list-widget  coin-ids="bitcoin,ethereum,herocoin,gimli,unikoin-gold,first-blood" currency="usd" locale="en"></coingecko-coin-list-widget>
+        </div>
+        <div class="item">
+            <h3>Herocoin</h3>
+            <coingecko-coin-price-chart-widget  coin-id="herocoin" currency="usd" height="300" locale="en"></coingecko-coin-price-chart-widget>
+        </div>
+        <div class="item">
+            <h3>First-blood</h3>
+            <coingecko-coin-price-chart-widget  coin-id="first-blood" currency="usd" height="300" locale="en"></coingecko-coin-price-chart-widget>
+        </div>
+        <div class="item">
+            <h3>Gimli</h3>
+            <coingecko-coin-price-chart-widget  coin-id="gimli" currency="usd" height="300" locale="en"></coingecko-coin-price-chart-widget>
+        </div>
+        <div class="item">
+            <h3>Unikoin-gold</h3>
+            <coingecko-coin-price-chart-widget  coin-id="unikoin-gold" currency="usd" height="300" locale="en"></coingecko-coin-price-chart-widget>
+        </div>
+    </div>
+</body>
+</html>
